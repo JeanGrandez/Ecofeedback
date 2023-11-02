@@ -3,9 +3,9 @@
 Somos EcoFeedback, una apasionada startup compuesto por un equipo de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC). Nuestra misión es impulsar el uso eficiente y sostenible de energías renovables al ofrecer soluciones tecnológicas de vanguardia que permiten a los usuarios controlar, monitorear y optimizar su consumo energético en tiempo real.
 
 Los miembros de EcoFeeback son:
-• Grandez Mansilla, Jean Pierre 
-• Muñoz Salcedo, Piero Jhoynner
-• Ventura Quillay, Yuni Victoria 
+• Grandez Mansilla, Jean Pierre <br>
+• Muñoz Salcedo, Piero Jhoynner <br>
+• Ventura Quillay, Yuni Victoria <br>
 • Cabrera Mendoza, Sebastián Adrián
 • Yovera Chaname, Nicolas Junior 
 
