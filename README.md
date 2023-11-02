@@ -12,10 +12,10 @@ Los miembros de EcoFeeback son: <br>
 Nuestro equipo EcoFeedback ha planteado la solución digital "EcoMonitor" para el desarrollo e implementación de uso de energías renovables como principal fuente de consumo para hogares y empresas.<br>
 
 Como equipo tenemos nuestra Misión y Visión bien definidas: <br>
-Misión:
+<br>Misión:
 
 La misión de EcoFeedback es transformar la manera en que las personas interactúan con las energías renovables al proporcionar una plataforma tecnológica avanzada que les permite comprender y optimizar su consumo energético de manera personalizada y sostenible.<br>
-Visión:
+<br>Visión:
 
 Nuestra visión es ser reconocidos a nivel global como los líderes indiscutibles en soluciones tecnológicas para el uso eficiente de energías renovables. Aspiramos a inspirar a individuos y comunidades a adoptar prácticas energéticas conscientes y a contribuir significativamente a la preservación del medio ambiente para las generaciones futuras.
 <br>
