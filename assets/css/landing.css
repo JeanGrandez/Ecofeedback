@@ -1,102 +1,231 @@
-
-*{
-    margin:0px;
-    padding:0px;
-    font-family: 'Open Sans', sans-serif;
+/* Estilos generales */
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background-color: grey;
-    width: 100%;
-    height: 100vh;
+h1 {
+    text-align: center;
+    color: #43B763;
 }
 
-nav{
-    background-color: white;
-    display:flex;
+nav {
+    background-color: #43B763;
+    overflow: hidden;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-weight: bold;
-}
-ul li{
-    display: inline-block;
-    padding: 0px 20px;
-    font-size: 20px;
-}
-.Logo{
-    margin-bottom: 20px;
-    margin-left: -50px;
-}
-.Name{
-    margin-left: -300px;
-    margin-bottom: 20px;
-    font-size: 40px;
-}
-.Inicio {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(48, 155, 119);
-    height: 550px;
-    margin-bottom: none;
-}
-.Banner{
-    margin-left: 30px;
-    margin-top: 50px;
+    padding: 0 20px;
 }
 
-.texto1{
-    
-    margin-left: 300px;
-    font-size:35px ;
-    font-style: italic;
-    text-align:center;
+.logo {
+    height: 50px; /*Tamaño del logo*/
+    padding: 10px;
 }
-.rainbow {
-    margin-left: 100px;
-    margin-top: 50px;
+
+ul {
+    list-style: none;
+    padding: 0;
 }
-.title1{
-    margin-top: 25px;
-    text-align: center;
-    font-size:40px;
+
+ul li {
+    display: inline;
+    margin: 0 10px;
 }
-.Servicios{
-   
-    margin-top: none;
-    background-color: rgb(29, 106, 137);
-    height: 650px;
-    
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
 }
-.title1{
-    text-decoration: underline;
-    text-align: center;
-    margin-top:20px;
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 
-.contenedor{
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right:40px;
-    display: flex;
-    justify-content: center;   
-}
-.servicio{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 5px solid rgb(188, 45, 45); 
-    width: 400px;
-    padding: 10px 15px;
-    
-}
-.descripcion1{
-    padding:10px 15px;
-    text-align: justify;
+.btn-login{
+    background-color: #65D103;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-register{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    width: 137px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* Banner */
+.banner{
+    width: 100%;
+    height: 483px;
+    background-image: url('../img/exp.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
     
+}
+.green-box{
+    width: 588px;
+    height: 483px;
+    margin-left: 90px;
+    flex-shrink: 1;
+    background: #65D103;
+    display: flex;
+}
+.head-text{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding-top: 20px;
+}
+.body-text{
+    color: #FFF;
+    text-align: center;
+    font-family: SF PRO;
+    font-size: 24px;
+    margin-top: 30px;
+    padding: 30px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: normal;
+}
+
+.blue-box{
+    display: flex;
+    width: 195px;
+    height: 84px;
+    margin-left: 190px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    flex-shrink: 0;
+    background: #2E1574;
+}
+.contact{
+    color: #FFF;
+    background-color: transparent;
+    font-family: SF Pro;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Quienes Somos */
+.green-back{
+    width: 100%;
+    height: 483px;
+    background-color: #288E2C;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.gray-box{
+    width: 588px;
+    height: 483px;
+    margin-left: 90px;
+    flex-shrink: 0;
+    background: #D2D2D2;
+    display: flex;
+    flex-direction: column;
+  
+}
+.blue-bx{
+    display: flex;
+    color: white;
+    width: 195px;
+    text-align: center;
+    height: 84px;
+    font-family: SF PRO;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 190px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 500;
+    background: #2E1574;
+    
+}
+.text-gray{
+    color: #000;
+    flex-direction: column;
+    text-align: justify;
+    font-family: SF PRO;
+    font-size: 23px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.text-blue{
+    color: #FFF;
+    font-family: SF Pro;
+    font-weight: 600;
+    font-size: 24px;
+}
+/* Servicios */
+.invibox{
+    background:transparent;
+    display: flex;
+    width: 793px;
+    height: 483px;
+    flex-shrink: 0; 
+  
+}
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 900px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
 }

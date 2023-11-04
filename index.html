@@ -1,70 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/landing.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>EcoFeedback</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+                
 </head>
 <body>
-    <header>
-        <nav>
-            <img class="Logo" src="assets/img/logo.png" height="80px" width="80px">
-            <h3 class="Name">EcoFeedback</h3>
-            <ul>
-                <li><a href="#Inicio"> Inicio</a></li>
-                <li> <a href="#Servicios">Servicios</a></li>
-                <li> <a href="#">Nosotros</a></li>
-                <li> <a href="#">App Mobil</a></li>
-                <li> <a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="Inicio" id="Inicio">
-        <div> 
-        <img class="Banner" src="assets/img/exp.jpeg" alt="Banner" height="400px" width="600px">
-        <img class="rainbow" src="#" alt="rainbow" height="400px" width="550px"> <br><br>
-        <span class="texto1" >La mejor solución en Inteligencia Energética,
-            brindando suministro eléctrico 100% renovable
-            para clientes libres, servicios de ingeniería, y 
-            tecnología de monitoreo y gestión.</span>
+    <h1>EcoFeedback</h1>
+    <nav>
+        <img src="assets/img/logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Soluciones Energéticas</a></li>
+            <li><a href="#">Financiamiento</a></li>
+            <li><a href="#">Contactanos</a></li>
+        </ul>
+        <div class="btn acceso">
+            <button class="btn-login" onclick="window.open('assets/html/login.html', '_blank')">Iniciar Sesión</button>
+            <button class="btn-register" onclick="window.open('assets/html/register.html', '_blank')">Regístrate</button>
         </div>
-    </div> 
-
-
-    <div class="Servicios" id="Servicios">
-        <div><h2 class="title1">Nuestros</h2></div> <br>
-        <div class="contenedor"> 
-            <div class="servicio"> 
-                <img class="artistas" src="/IMG/artistas.png" alt="servicio1" width="400px" height="300px"> 
-                <p class="descripcion1">
-               
-                </p>
-            </div>
-
-            <div class="servicio"> 
-                <img class="artistas" src="/IMG/cliente.jpg" alt="servicio1" width="400px" height="300px"> 
-                <p class="descripcion1">
-             
-                </p>
-            </div>
-
-            <div class="servicio"> 
-                <img class="artistas" src="/IMG/comunidad.png" alt="servicio1" width="400px" height="300px"> 
-                <p class="descripcion1">
-                   
-                </p>
-              
-            </div>
         
+    </nav>
+    <!--Primera Seccion-->
+    <div class="banner">
+        <div class="green-box">
+           <div class="text-green">
+                <div class="head-text">EcoMonitor</div>
+                <div class="body-text">La mejor solución en Inteligencia Energética,
+                    brindando suministro eléctrico 100% renovable
+                    para clientes libres, servicios de ingeniería, y 
+                    tecnología de monitoreo y gestión.</div>
+                <div class="blue-box">
+                    <div>
+                        <button class="contact">Contáctanos</button>
+                    </div>
+                 </div>
+            </div>
         </div>
-    </div> 
+    </div>
+    <!--Segunda Seccion-->
+    <div class="green-back">
+        <div class="gray-box">
+            <div class="blue-bx">¿Quiénes Somos?</div>
+            <div class="text-gray">
+                <p>EcoFeedback es una empresa global experta en eficiencia energética a nivel industrial y comercial con corporativo en Lima que ofrece servicio en Perú.</p>
+                <p>Diseñamos e implementamos sistemas para el ahorro energético y generación de energía renovable. Nos enfocamos en las necesidades y capacidades reales de nuestros clientes para proponer soluciones óptimas y competitivas.</p>
+            </div>
+        </div>
+        <div class="invibox">
+            <div class="box1">
+                <img src="img/invitado.png" alt="Invitado" class="invitado">
+                 EXPERTOS EN EFICIENCIA ENERGÉTICA</div>
+            <div class="box2">
+                <img src="img/invitado.png" alt="Invitado" class="invitado">
+                ESPECIALISTAS EN SISTEMAS FOTOVOLTAICOS</div>
+            <div class="box3">
+                <img src="img/invitado.png" alt="Invitado" class="invitado">
+                ENCONTRAMOS OPORTUNIDADES DE AHORRO</div>
+            <div class="box 4">
+                <img src="img/invitado.png" alt="Invitado" class="invitado">
+                FINANCIAMIENTO A LA MEDIDA</div>
+        </div>   
+    </div>
     
-
-
+  
+    
 </body>
 </html>
