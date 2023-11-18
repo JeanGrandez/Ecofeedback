@@ -1,0 +1,67 @@
+
+
+body{
+    /* esto le da tipo de letra a todo el cuerpo(body) */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: url('../Fotos/renovable.jpg'); /* Ruta de la imagen de fondo */
+        background-size: cover; /* Escalar la imagen para cubrir toda la pantalla */
+        background-attachment: fixed; /* Fijar la imagen de fondo para que se desplace con el contenido */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: center top ;
+    
+    }
+/* medidas del formulario */
+.form{
+    background-color: #fff;
+    background: transparent 10px;
+    backdrop-filter: blur(50px);
+    border: 2px solid rgba(225,225,225,0.2);
+    /* le da un bordeado mas bonito*/
+    box-sizing: border-box;
+    width: 40%;
+    margin: auto;
+    max-height: 800px;
+    border-radius: 1.1em;
+    padding: 1.8em 1.3em ;
+    font-family: 'Montserrat', sans-serif;
+}
+.form_container{
+    width: 100%;
+    display: grid;
+    gap:1em;
+    grid-auto-columns: 100%;
+}
+.form_title{
+    text-align: center;
+    margin-bottom: .4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.1rem;
+    padding: 10px  ;
+}
+.mensaje{
+    text-align: center;
+    font-size: 10;
+    margin-bottom: .4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form_input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+}
+.form_input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+.form_cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: 0.2em;
+    cursor: pointer;
+}

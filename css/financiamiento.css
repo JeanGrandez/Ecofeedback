@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+        background-image: url('../Fotos/reno.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Fijar la imagen de fondo para que se desplace con el contenido */
+        background-size:cover;
+
+    
+
+    }
+
+
+/* Estilos de la barra de navegacion */
+nav {
+    background-color: #43B763;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px; /*Tamaño del logo*/
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.btn-login{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-register{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    width: 137px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Estilo del pie de pagina */
+   footer {
+
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color: #43B763;
+    font-size: 14px;
+    position:fixed;
+  }
+  
+  footer a {
+    text-decoration: underline;
+    margin: 0 18px;
+    color: white; /* Cambia el color según tu diseño */
+  }

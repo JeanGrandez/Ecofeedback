@@ -1,0 +1,227 @@
+
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+        background-image: url('../img/reno.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Fijar la imagen de fondo para que se desplace con el contenido */
+        background-size:cover;
+
+
+    }
+/*barra de navegacion*/
+nav {
+    background-color: #43B763;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px; /*Tamaño del logo*/
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.btn-login{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-register{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    width: 137px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+/*quienes somos*/
+.gray-box{
+    width: 588px;
+    height: 483px;
+    margin-left: 90px;
+    flex-shrink: 0;
+    background: #D2D2D2;
+    display: flex;
+    flex-direction: column;
+  
+}
+.blue-bx{
+    display: flex;
+    color: white;
+    width: 195px;
+    text-align: center;
+    height: 84px;
+    font-family: SF PRO;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 190px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 500;
+    background: #2E1574;
+
+
+
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    
+}
+.text-gray{
+    color: #000;
+    flex-direction: column;
+    text-align: justify;
+    font-family: SF PRO;
+    font-size: 23px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+.text-blue{
+    color: #FFF;
+    font-family: SF Pro;
+    font-weight: 600;
+    font-size: 24px;
+}
+/*que hacemos*/
+.equipo {
+    background-color: transparent;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+  
+
+   /* text-align: center;*/
+  }
+
+  .titulo2 {
+    display: flex;
+    color: white;
+    width: 195px;
+    height: 84px;
+    font-family: SF PRO;
+    font-size: 23px;
+ 
+    margin-left: 800px;
+    justify-content: center;/*central text*/
+    align-items: center;/*central text*/
+    background: #2E1574;
+
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 20px;/*espacio entre eso y lo demas, como un paddin*/
+ 
+
+  }
+
+  .box1,.box2, .box3, .box4 {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 23.5px;
+    display: inline-block;
+    flex-direction: row; /* Disposición horizontal */
+      justify-content: space-around; /* Espacio uniformemente distribuido entre elementos */
+      align-items: center; /* Centra verticalmente los elementos */
+      width: 410px; /* Ajusta el tamaño de las imágenes según tus necesidades */
+      text-align: center;
+      height: auto;
+  }
+
+
+
+
+/*diseño de los iconos pequeños*/
+
+.invitado1{
+   height: 83px;
+   width: 89px;
+}
+.invitado2{
+    height: 80px;
+    width: 80px;
+ }
+ .invitado3{
+    height: 80px;
+    width: 80px;
+ }
+ .invitado4{
+    height: 80px;
+    width: 90px;
+ }
+
+
+
+
+
+
+
+  /*diseño de pie de pagina*/
+  footer {
+
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color: #43B763;
+    font-size: 14px;
+    position:fixed;
+  }
+  
+  footer a {
+    text-decoration: underline;
+    margin: 0 18px;
+    color: white; /* Cambia el color según tu diseño */
+  }

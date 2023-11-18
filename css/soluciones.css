@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+        background-image: url('../Fotos/reno.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Fijar la imagen de fondo para que se desplace con el contenido */
+        background-size:cover;
+
+    
+
+    }
+/*estilos barra de navegacion*/
+nav {
+    background-color: #43B763;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px; /*Tamaño del logo*/
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.btn-login{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-register{
+    background-color: #65D103;
+    color: white;
+    border: none;
+    width: 137px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+/*diseño titulo*/
+
+h1{
+    font-family: "Kanit";
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Sombra de texto. segun- desplazamiento horizontal, desplazamiento vertical, desenfoque y color. */
+    line-height: 1.2;  /* Altura de línea, ajusta según sea necesario para el espaciado vertical entre líneas. */
+}
+
+
+/*diseño de las divisiones*/
+.course{
+    /* cree un relleno de linea en todo el texto y haya una separacion de 18 y letras color blanco */
+    background-color:  #03A9f4;
+    color: white;
+    padding: 18px;
+    /* ahora le quite el color y le puso un fondo de una imagen descargada, ademas le di una posicion segun lo quiera*/
+    background-image: url(produccion.png);
+    background-size:cover;
+    background-position: center top ;
+    /* creeamos un borde real solid, le damos color con border color y le damos una forma circularcon border radius */
+        border-style: solid;
+        border-color: #383593;
+        border-radius: 5px;
+    text-align: center;
+    
+    
+    }
+
+
+    .boxwhite1, .boxwhite2, .boxwhite3,.boxwhite4,.boxwhite5 {
+
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 32px;
+            font-size: 20px;
+            text-align: center;
+            margin: 0 auto; /* Esto centrará la caja horizontalmente */
+            width: 70%; /* Ajusta el ancho según sea necesario */
+            max-width: 800px; /* Establece un ancho máximo si es necesario */
+            margin-bottom: 20px; /* Ajusta según sea necesario */
+            display: flex; /* Usa flexbox para alinear elementos */
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        
+        .image {
+            margin-left: 34px;
+            flex-shrink: 0; /* Esto evita que la imagen se contraiga */
+          
+         
+        
+        }
+        
+        .image img {
+            width: 330px;
+            border-radius: 10px;
+            height: 230px; /* Esto mantendrá la proporción de la imagen */
+        }
+ 
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* Estilo del pie de pagina */
+   footer {
+
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background-color: #43B763;
+    font-size: 14px;
+    position:fixed;
+  }
+  
+  footer a {
+    text-decoration: underline;
+    margin: 0 18px;
+    color: white; /* Cambia el color según tu diseño */
+  }
